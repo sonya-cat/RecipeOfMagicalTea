@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4E369587-5686-4327-831D-5FCA27914007}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RecipeOfMagicalTea</RootNamespace>
+    <AssemblyName>RecipeOfMagicalTea</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Data\ActiveObject\RepositoryBush.cs" />
+    <Compile Include="Data\Character\RepositoryCharacter.cs" />
+    <Compile Include="Data\ControlData.cs" />
+    <Compile Include="Data\ActiveObject\RepositoryActiveObject.cs" />
+    <Compile Include="Data\RepositoryMainLevelRecipe.cs" />
+    <Compile Include="Data\RepositoryLevel.cs" />
+    <Compile Include="Data\RepositoryObject.cs" />
+    <Compile Include="Data\RepositoryLocation.cs" />
+    <Compile Include="Data\RepositoryRecipe.cs" />
+    <Compile Include="Data\RepositoryUsableThing.cs" />
+    <Compile Include="Game\Actions\ChangeMapActions.cs" />
+    <Compile Include="Game\Actions\CommunicationSellActions.cs" />
+    <Compile Include="Game\Actions\CommunicationBayActions.cs" />
+    <Compile Include="Game\Actions\CommunicationDialogActions.cs" />
+    <Compile Include="Game\Actions\BoilerActions.cs" />
+    <Compile Include="Game\Actions\NotepadActions.cs" />
+    <Compile Include="Game\Actions\InventoryActions.cs" />
+    <Compile Include="Attribute\BaseAttribute.cs" />
+    <Compile Include="Attribute\EnumAttributes.cs" />
+    <Compile Include="Game\Actions\ShowInformationPageAction.cs" />
+    <Compile Include="Game\Enums\CommunicationType.cs" />
+    <Compile Include="Game\Enums\MapTypes.cs" />
+    <Compile Include="Game\Enums\IngredientType.cs" />
+    <Compile Include="Attribute\NameAttribute.cs" />
+    <Compile Include="Data\Enums\ActiveObjectType.cs" />
+    <Compile Include="Game\GameObjects\Level\Character\Location\Boiler.cs" />
+    <Compile Include="Game\GameObjects\Level\ActiveObjects\IActiveObject.cs" />
+    <Compile Include="Game\GameObjects\Level\ActiveObjects\IngredientObject.cs" />
+    <Compile Include="Game\Enums\GameState.cs" />
+    <Compile Include="Game\Actions\CommunicationActions.cs" />
+    <Compile Include="Game\Actions\GameActions.cs" />
+    <Compile Include="Game\Enums\DirectionType.cs" />
+    <Compile Include="Game\GameObjects\Level\Character\Location\Table.cs" />
+    <Compile Include="Game\GameObjects\Level\Character\Dialog\Ansver.cs" />
+    <Compile Include="Game\GameObjects\Level\Character\Dialog\Dialog.cs" />
+    <Compile Include="Game\GameObjects\Level\Character\Dialog\DialogStep.cs" />
+    <Compile Include="Game\GameObjects\Level\MainLevelRecipe.cs" />
+    <Compile Include="Game\GameObjects\Things\ThingItem.cs" />
+    <Compile Include="Game\GameObjects\Hero\Notepad.cs" />
+    <Compile Include="Game\GameObjects\Level\Character\Location\Location.cs" />
+    <Compile Include="Game\GameObjects\Level\Character\Location\Passage.cs" />
+    <Compile Include="Game\GameObjects\Things\Ingredient.cs" />
+    <Compile Include="Game\GameObjects\Things\Thing.cs" />
+    <Compile Include="Game\GameObjects\Things\Recipe.cs" />
+    <Compile Include="Game\Enums\ThingType.cs" />
+    <Compile Include="Game\GameProcess.cs" />
+    <Compile Include="Game\Actions\MapActions.cs" />
+    <Compile Include="Game\GameObjects\Level\Character\Character.cs" />
+    <Compile Include="Game\GameObjects\Hero\Hero.cs" />
+    <Compile Include="Game\GameObjects\Level\Level.cs" />
+    <Compile Include="Game\InformationPage.cs" />
+    <Compile Include="Game\UserInterface.cs" />
+    <Compile Include="Helpers\CharArrayHelper.cs" />
+    <Compile Include="Helpers\KeyPressHelper.cs" />
+    <Compile Include="Helpers\Randomizer.cs" />
+    <Compile Include="Game\GameObjects\Hero\Inventory.cs" />
+    <Compile Include="Game\GameControl.cs" />
+    <Compile Include="Game\GameLoop.cs" />
+    <Compile Include="Menu\Menu.cs" />
+    <Compile Include="Menu\MenuActions.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

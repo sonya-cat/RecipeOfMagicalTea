@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<ArrayOfRepositoryIngredientObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <RepositoryIngredientObject>
+    <Id>0</Id>
+    <Name>Чайный куст</Name>
+    <MaxIngridientNumber>3</MaxIngridientNumber>
+    <Ingredient>
+      <Number>2</Number>
+      <Item>
+        <Type>TeaLeaves</Type>
+      </Item>
+    </Ingredient>
+  </RepositoryIngredientObject>
+  
+  <RepositoryIngredientObject>
+    <Id>1</Id>
+    <Name>Лимонное дерево</Name>
+    <MaxIngridientNumber>3</MaxIngridientNumber>
+    <Ingredient>
+      <Number>2</Number>
+      <Item>
+        <Type>Lemon</Type>
+      </Item>
+    </Ingredient>
+  </RepositoryIngredientObject>
+
+  <RepositoryIngredientObject>
+    <Id>2</Id>
+    <Name>Апельсиновое дерево</Name>
+    <MaxIngridientNumber>3</MaxIngridientNumber>
+    <Ingredient>
+      <Number>2</Number>
+      <Item>
+        <Type>Orange</Type>
+      </Item>
+    </Ingredient>
+  </RepositoryIngredientObject>
+  
+  <RepositoryIngredientObject>
+    <Id>3</Id>
+    <Name>Куст клюквы</Name>
+    <MaxIngridientNumber>3</MaxIngridientNumber>
+    <Ingredient>
+      <Number>2</Number>
+      <Item>
+        <Type>Cranberry</Type>
+      </Item>
+    </Ingredient>
+  </RepositoryIngredientObject>
+  
+  <RepositoryIngredientObject>
+    <Id>4</Id>
+    <Name>Дерево корицы</Name>
+    <MaxIngridientNumber>3</MaxIngridientNumber>
+    <Ingredient>
+      <Number>2</Number>
+      <Item>
+        <Type>Cinnamon</Type>
+      </Item>
+    </Ingredient>
+  </RepositoryIngredientObject>
+  
+    <RepositoryIngredientObject>
+    <Id>5</Id>
+    <Name>Куст имбиря</Name>
+    <MaxIngridientNumber>3</MaxIngridientNumber>
+    <Ingredient>
+      <Number>2</Number>
+      <Item>
+        <Type>Ginger</Type>
+      </Item>
+    </Ingredient>
+  </RepositoryIngredientObject>
+    
+    <RepositoryIngredientObject>
+    <Id>6</Id>
+    <Name>Улей</Name>
+    <MaxIngridientNumber>3</MaxIngridientNumber>
+    <Ingredient>
+      <Number>2</Number>
+      <Item>
+        <Type>Honey</Type>
+      </Item>
+    </Ingredient>
+  </RepositoryIngredientObject>
+</ArrayOfRepositoryIngredientObject>

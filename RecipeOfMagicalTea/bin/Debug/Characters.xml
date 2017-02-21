@@ -1,0 +1,166 @@
+<?xml version="1.0"?>
+<ArrayOfRepositoryCharacter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <RepositoryCharacter>
+    <Id>0</Id>
+    <Name>Адда</Name>
+    <X>43</X>
+    <Y>13</Y>
+    <Dialog>
+      <Steps>
+        <DialogStep>
+          <Text>Добрый день, вы же недавно в наших краях? Слышал вы любите чай.</Text>
+          <Ansvers>
+            <Ansver>
+              <Text>Да безумно!</Text>
+              <NextDialogStepNumber>1</NextDialogStepNumber>
+            </Ansver>
+            <Ansver>
+              <Text>Нет терпеть его не могу....</Text>
+              <NextDialogStepNumber>2</NextDialogStepNumber>
+            </Ansver>
+          </Ansvers>
+        </DialogStep>
+        <DialogStep>
+          <Text>В таком случае позвольте угостить вас чаем заваренным по нашему особому семейному рецепту.</Text>
+          <Ansvers>
+            <Ansver>
+              <Text>Премного благодарен.</Text>
+              <NextDialogStepNumber>3</NextDialogStepNumber>
+            </Ansver>
+          </Ansvers>
+        </DialogStep>
+        <DialogStep>
+          <Text>В самом деле? Жаль.</Text>
+          <Ansvers />
+        </DialogStep>
+		<DialogStep>
+          <Text>Всегда пожалуйста!</Text>
+          <Ansvers />
+        </DialogStep>
+      </Steps>
+      <CurrentStepNumber>0</CurrentStepNumber>
+      <GoodResultLastStepNumber>3</GoodResultLastStepNumber>
+    </Dialog>
+    <DialogResultThingId>4</DialogResultThingId>
+    <DialogResultThingNumber>2</DialogResultThingNumber>
+  </RepositoryCharacter>
+
+  <RepositoryCharacter>
+    <Id>1</Id>
+    <Name>Лорен</Name>
+    <X>64</X>
+    <Y>13</Y>
+    <Dialog>
+      <Steps>
+        <DialogStep>
+          <Text>Здравствуйте, я местный торговец. У меня вы всегда можете приобрести самый свежий чай. Более того, вы можете продать мне чаи вашего собственного приготовления.
+Также очень советую вам поскорее обзавестись переносным котлом. Он позволит вам варить чаи даже когда вы будете путешествовать за пределами деревни.</Text>
+        </DialogStep>
+      </Steps>
+      <CurrentStepNumber>0</CurrentStepNumber>
+    </Dialog>
+	<ShopThingIds>
+      <int>5</int>
+      <int>0</int>
+	  <int>7</int>
+    </ShopThingIds>
+  </RepositoryCharacter>
+  
+  <RepositoryCharacter>
+    <Id>2</Id>
+    <Name>Клем</Name>
+    <X>8</X>
+    <Y>25</Y>
+    <Dialog>
+      <Steps>
+        <DialogStep>
+          <Text>Здравствуй путник ты недавно в наших местах? Зачем пожаловал?</Text>
+          <Ansvers>
+            <Ansver>
+              <Text>Я пришел сюда в поисках одного рецепта чая.</Text>
+              <NextDialogStepNumber>1</NextDialogStepNumber>
+            </Ansver>
+            <Ansver>
+              <Text>Не важно.</Text>
+              <NextDialogStepNumber>2</NextDialogStepNumber>
+            </Ansver>
+          </Ansvers>
+        </DialogStep>
+        <DialogStep>
+          <Text>Наша деревня действительно издавна славится своими рецептами чаев. Какой именно рецепт ты ищешь?</Text>
+		  <Ansvers>
+            <Ansver>
+              <Text>Рецепт чая, увеличивающего длительность жизни.</Text>
+              <NextDialogStepNumber>3</NextDialogStepNumber>
+            </Ansver>
+			<Ansver>
+              <Text>Рецепт самого вкусного в мире чая.</Text>
+              <NextDialogStepNumber>3</NextDialogStepNumber>
+            </Ansver>
+			<Ansver>
+              <Text>Рецепт Волшебного чая.</Text>
+              <NextDialogStepNumber>4</NextDialogStepNumber>
+            </Ansver>
+		  </Ansvers>
+        </DialogStep>
+        <DialogStep>
+          <Text>Что ж, вижу вы не хотите общаться, очень жаль.</Text>
+          <Ansvers />
+        </DialogStep>
+		<DialogStep>
+          <Text>К сожалению, не могу тебе ничего подсказать. Но не отчаивайся. Ищи и ты найдешь, что ищешь.</Text>
+          <Ansvers />
+        </DialogStep>
+		<DialogStep>
+          <Text>Рецепт Волшебного чая говоришь... Я множество раз слышал легенды о нем. В нашей деревне поговаривают что старик Эйб хранит рецепт какого-то особого чая, 
+уж не знаю волшебного ли, но в любом случае советую тебе поговорить с ним.</Text>
+          <Ansvers />
+        </DialogStep>
+      </Steps>
+      <CurrentStepNumber>0</CurrentStepNumber>
+    </Dialog>
+  </RepositoryCharacter>
+  
+  <RepositoryCharacter>
+    <Id>3</Id>
+    <Name>Дарин</Name>
+    <X>34</X>
+    <Y>35</Y>
+    <Dialog>
+      <Steps>
+        <DialogStep>
+          <Text>Здравствуйте, я слышал вы занимаетесь изготовлением чаев. В таком случае вам будет интересно узнать, где и какие ингредиенты вы сможете найти.
+В ЧАЙНЫХ ХОЛМАХ растет множество чайных кустов. Клюкву или корицу вы можете найти в ДИКИХ ЛУГАХ. На ДИКОЙ ПОЛЯНЕ можно встретить кусты имбиря.
+В ПУСТОШИ встречаются одиночные деревья апельсинов и лимонов, а на ПУСТЫННОЙ ПОЛЯНЕ есть парочка пчелиных ульев.</Text>
+          <Ansvers>		  
+			<Ansver>
+              <Text>Спасибо!!</Text>
+              <NextDialogStepNumber>1</NextDialogStepNumber>
+            </Ansver>
+          </Ansvers>			
+        </DialogStep>
+		<DialogStep>
+          <Text>Не за что, друг!</Text>
+        </DialogStep>
+      </Steps>
+      <CurrentStepNumber>0</CurrentStepNumber>
+    </Dialog>
+  </RepositoryCharacter>
+  
+  <RepositoryCharacter>
+    <Id>4</Id>
+    <Name>Эйб</Name>
+    <X>62</X>
+    <Y>33</Y>
+    <Dialog>
+      <Steps>
+        <DialogStep>
+          <Text>Эта деревня издавна славится своими чаяварами. А здешние земли богаты различными ингредиентами. 
+Я уверен за стенами деревни ты найдешь все необходимое для изготовления всевозможных рецептов чаев.
+		  </Text>
+		</DialogStep>
+      </Steps>
+      <CurrentStepNumber>0</CurrentStepNumber>
+    </Dialog>
+  </RepositoryCharacter>
+</ArrayOfRepositoryCharacter>

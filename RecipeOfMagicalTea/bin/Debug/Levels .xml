@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<ArrayOfRepositoryLevel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <RepositoryLevel>
+    <Id>0</Id>
+    <StartHeroX>20</StartHeroX>
+    <StartHeroY>8</StartHeroY>
+    <StartHeroDirection>Down</StartHeroDirection>
+    <LocationIds>
+      <int>0</int>
+      <int>1</int>
+    </LocationIds>
+    <Boiler>
+      <X>15</X>
+      <Y>8</Y>
+    </Boiler>
+    <Table>
+      <X>26</X>
+      <Y>8</Y>
+    </Table>
+    <RepositoryMainLevelRecipe>
+      <RecipeId>4</RecipeId>
+      <CharacterName>Эйб</CharacterName>
+      <CharacteText>Ты хочешь узнать рецепт моего особого чая? Я могу тебе его рассказать, но только если буду знать, что ты достоин. 
+Принеси мне на пробу 3 чая приготовленных по твоему личному рецепту, и, если мне они понравятся, я дам тебе мой рецепт.</CharacteText>
+      <CharacteTextSuccessful>Вижу ты принес чаи на пробу. Так поосмотрим... Хм, действительно неплохо. Ладно, я расскажу тебе мой особый рецепт чая!</CharacteTextSuccessful>
+    </RepositoryMainLevelRecipe>
+    <InventRecipeIds>
+	  <int>1</int>
+	  <int>2</int>
+	  <int>3</int>
+    </InventRecipeIds>
+	<ExperienceLevels>
+	  <int>5</int>
+	  <int>10</int>
+	  <int>15</int>
+    </ExperienceLevels>
+  </RepositoryLevel>
+</ArrayOfRepositoryLevel>

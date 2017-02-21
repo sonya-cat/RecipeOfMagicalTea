@@ -1,0 +1,7 @@
+E:\!!!Programming!!!\RecipeOfMagicalTea\RecipeOfMagicalTea\RecipeOfMagicalTea\bin\Debug\RecipeOfMagicalTea.exe.config
+E:\!!!Programming!!!\RecipeOfMagicalTea\RecipeOfMagicalTea\RecipeOfMagicalTea\bin\Debug\RecipeOfMagicalTea.exe
+E:\!!!Programming!!!\RecipeOfMagicalTea\RecipeOfMagicalTea\RecipeOfMagicalTea\bin\Debug\RecipeOfMagicalTea.pdb
+E:\!!!Programming!!!\RecipeOfMagicalTea\RecipeOfMagicalTea\RecipeOfMagicalTea\obj\Debug\RecipeOfMagicalTea.exe
+E:\!!!Programming!!!\RecipeOfMagicalTea\RecipeOfMagicalTea\RecipeOfMagicalTea\obj\Debug\RecipeOfMagicalTea.pdb
+E:\!!!Programming!!!\RecipeOfMagicalTea\RecipeOfMagicalTea\RecipeOfMagicalTea\obj\Debug\RecipeOfMagicalTea.csprojResolveAssemblyReference.cache
+E:\!!!Programming!!!\RecipeOfMagicalTea\RecipeOfMagicalTea\bin\Debug\RecipeOfMagicalTea.exe.config

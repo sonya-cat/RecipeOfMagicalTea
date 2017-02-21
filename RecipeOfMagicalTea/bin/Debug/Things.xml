@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<ArrayOfRepositoryThing xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <RepositoryThing>
+    <Id>0</Id>
+    <Type>Tea</Type>
+    <Name>Обычный чай</Name>
+    <Effect>10</Effect>
+    <Cost>6</Cost>
+  </RepositoryThing>
+  
+  <RepositoryThing>
+    <Id>1</Id>
+    <Type>Tea</Type>
+    <Name>Клюквенный чай</Name>
+    <Effect>15</Effect>
+    <Cost>20</Cost>
+  </RepositoryThing>
+  
+  <RepositoryThing>
+    <Id>2</Id>
+    <Type>Tea</Type>
+    <Name>Цитрусовый чай</Name>
+    <Effect>15</Effect>
+    <Cost>20</Cost>
+  </RepositoryThing>
+  
+    <RepositoryThing>
+    <Id>3</Id>
+    <Type>Tea</Type>
+    <Name>Имбирный чай</Name>
+    <Effect>15</Effect>
+    <Cost>20</Cost>
+  </RepositoryThing>
+  
+  <RepositoryThing>
+    <Id>4</Id>
+    <Type>Tea</Type>
+    <Name>Чай домашний</Name>
+    <Effect>20</Effect>
+    <Cost>15</Cost>
+  </RepositoryThing>
+  
+    <RepositoryThing>
+    <Id>5</Id>
+    <Type>Boiler</Type>
+    <Name>Старый котел</Name>
+    <Effect>0</Effect>
+    <Cost>20</Cost>
+  </RepositoryThing>
+  
+    <RepositoryThing>
+    <Id>6</Id>
+    <Type>Tea</Type>
+    <Name>*Секретный чай деревни Чайтаун</Name>
+    <Effect>100</Effect>
+    <Cost>100</Cost>
+	</RepositoryThing>
+  
+	<RepositoryThing>
+    <Id>7</Id>
+    <Type>Cup</Type>
+    <Name>Чашка</Name>
+    <Effect>2</Effect>
+    <Cost>10</Cost>	
+	</RepositoryThing>
+</ArrayOfRepositoryThing>
